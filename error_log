@@ -1,0 +1,58 @@
+[05-Jun-2018 16:44:04 UTC] PHP Notice:  Undefined variable: result in /home/imacomy/public_html/bill/system/payments.php on line 394
+[05-Jun-2018 16:44:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/imacomy/public_html/bill/system/payments.php on line 394
+[30-Sep-2018 16:26:44 Asia/Calcutta] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[30-Sep-2018 16:26:44 Asia/Calcutta] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/cpanel/php/sessions/ea-php70) in Unknown on line 0
+[30-Sep-2018 16:26:58 Asia/Calcutta] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[30-Sep-2018 16:26:58 Asia/Calcutta] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/cpanel/php/sessions/ea-php70) in Unknown on line 0
+[30-Sep-2018 16:26:59 Asia/Calcutta] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[30-Sep-2018 16:26:59 Asia/Calcutta] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/cpanel/php/sessions/ea-php70) in Unknown on line 0
+[30-Sep-2018 16:27:05 Asia/Calcutta] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[30-Sep-2018 16:27:05 Asia/Calcutta] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/cpanel/php/sessions/ea-php70) in Unknown on line 0
+[30-Sep-2018 16:27:06 Asia/Calcutta] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[30-Sep-2018 16:27:06 Asia/Calcutta] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/cpanel/php/sessions/ea-php70) in Unknown on line 0
+[30-Sep-2018 16:27:16 Asia/Calcutta] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[30-Sep-2018 16:27:16 Asia/Calcutta] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/cpanel/php/sessions/ea-php70) in Unknown on line 0
+[30-Sep-2018 16:27:20 Asia/Calcutta] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[30-Sep-2018 16:27:20 Asia/Calcutta] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/cpanel/php/sessions/ea-php70) in Unknown on line 0
+[30-Sep-2018 16:27:20 Asia/Calcutta] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[30-Sep-2018 16:27:20 Asia/Calcutta] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/cpanel/php/sessions/ea-php70) in Unknown on line 0
+[30-Sep-2018 16:27:25 Asia/Calcutta] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[30-Sep-2018 16:27:25 Asia/Calcutta] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/cpanel/php/sessions/ea-php70) in Unknown on line 0
+[30-Sep-2018 16:27:25 Asia/Calcutta] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[30-Sep-2018 16:27:25 Asia/Calcutta] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/cpanel/php/sessions/ea-php70) in Unknown on line 0
+[16-Jan-2019 12:13:47 Asia/Calcutta] PHP Notice:  Undefined variable: result in /home/imacom/public_html/bill/system/payments.php on line 394
+[16-Jan-2019 12:13:47 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/imacom/public_html/bill/system/payments.php on line 394
+[16-Jan-2019 12:13:58 Asia/Calcutta] PHP Notice:  Undefined variable: result in /home/imacom/public_html/bill/system/payments.php on line 394
+[16-Jan-2019 12:13:58 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/imacom/public_html/bill/system/payments.php on line 394
+[31-Jan-2019 20:55:30 Asia/Calcutta] PHP Notice:  Undefined variable: result in /home/imacom/public_html/bill/system/payments.php on line 394
+[31-Jan-2019 20:55:30 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/imacom/public_html/bill/system/payments.php on line 394
+[19-Feb-2019 13:49:32 Asia/Calcutta] PHP Notice:  Undefined variable: result in /home/imacom/public_html/bill/system/payments.php on line 394
+[19-Feb-2019 13:49:33 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/imacom/public_html/bill/system/payments.php on line 394
+[29-Apr-2019 19:09:17 Asia/Calcutta] PHP Notice:  Undefined variable: result in /home/imacom/public_html/bill/system/payments.php on line 394
+[29-Apr-2019 19:09:17 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/imacom/public_html/bill/system/payments.php on line 394
+[29-Apr-2019 19:10:38 Asia/Calcutta] PHP Notice:  Undefined variable: result in /home/imacom/public_html/bill/system/payments.php on line 394
+[29-Apr-2019 19:10:38 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/imacom/public_html/bill/system/payments.php on line 394
+[29-Apr-2019 19:11:06 Asia/Calcutta] PHP Notice:  Undefined variable: result in /home/imacom/public_html/bill/system/payments.php on line 394
+[29-Apr-2019 19:11:06 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/imacom/public_html/bill/system/payments.php on line 394
+[29-Apr-2019 19:11:30 Asia/Calcutta] PHP Notice:  Undefined variable: result in /home/imacom/public_html/bill/system/payments.php on line 394
+[29-Apr-2019 19:11:30 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/imacom/public_html/bill/system/payments.php on line 394
+[22-May-2019 12:41:03 Asia/Calcutta] PHP Notice:  Undefined variable: result in /home/imacom/public_html/bill/system/payments.php on line 394
+[22-May-2019 12:41:03 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/imacom/public_html/bill/system/payments.php on line 394
+[22-May-2019 12:46:27 Asia/Calcutta] PHP Notice:  Undefined variable: result in /home/imacom/public_html/bill/system/payments.php on line 394
+[22-May-2019 12:46:27 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/imacom/public_html/bill/system/payments.php on line 394
+[22-May-2019 12:49:26 Asia/Calcutta] PHP Notice:  Undefined variable: result in /home/imacom/public_html/bill/system/payments.php on line 394
+[22-May-2019 12:49:26 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/imacom/public_html/bill/system/payments.php on line 394
+[23-Jul-2019 18:31:21 Asia/Calcutta] PHP Notice:  Undefined variable: result in /home/imacom/public_html/bill/system/payments.php on line 394
+[23-Jul-2019 18:31:21 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/imacom/public_html/bill/system/payments.php on line 394
+[23-Jul-2019 18:31:43 Asia/Calcutta] PHP Notice:  Undefined variable: result in /home/imacom/public_html/bill/system/payments.php on line 394
+[23-Jul-2019 18:31:43 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/imacom/public_html/bill/system/payments.php on line 394
+[26-Jul-2019 11:11:24 Asia/Calcutta] PHP Notice:  Undefined variable: result in /home/imacom/public_html/bill/system/payments.php on line 394
+[26-Jul-2019 11:11:24 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/imacom/public_html/bill/system/payments.php on line 394
+[26-Jul-2019 11:14:13 Asia/Calcutta] PHP Notice:  Undefined variable: result in /home/imacom/public_html/bill/system/payments.php on line 394
+[26-Jul-2019 11:14:13 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/imacom/public_html/bill/system/payments.php on line 394
+[26-Jul-2019 11:15:13 Asia/Calcutta] PHP Notice:  Undefined variable: result in /home/imacom/public_html/bill/system/payments.php on line 394
+[26-Jul-2019 11:15:13 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/imacom/public_html/bill/system/payments.php on line 394
+[17-Aug-2019 11:04:07 Asia/Calcutta] PHP Notice:  Undefined variable: result in /home/imacom/public_html/bill/system/payments.php on line 394
+[17-Aug-2019 11:04:07 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/imacom/public_html/bill/system/payments.php on line 394
+[17-Aug-2019 11:05:01 Asia/Calcutta] PHP Notice:  Undefined variable: result in /home/imacom/public_html/bill/system/payments.php on line 394
+[17-Aug-2019 11:05:01 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/imacom/public_html/bill/system/payments.php on line 394

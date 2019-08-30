@@ -1,0 +1,26 @@
+<Files .htaccess>
+	order allow,deny
+	deny from all
+</Files>
+
+# 1 Month for all your static assets
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
+Header set Cache-Control "max-age=2592000, public"
+</filesMatch>
+ 
+ # 0 HOURS for your real files
+<filesMatch ".(pdf)$">
+Header set Cache-Control "max-age=0, must-revalidate"
+</filesMatch>
+
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+#RewriteBase /
+
+RewriteRule ^customer/invoice/([0-9]+)/([A-Za-z0-9-]+)/$ view/invoice-view.php?id=$1&token=$2 [L]
+RewriteRule ^customer/rinvoice/([0-9]+)/([A-Za-z0-9-]+)/$ view/invoice-rec.php?id=$1&token=$2 [L]
+
+###YOUR CUSTOM RULES FROM HERE###
+
+</IfModule>

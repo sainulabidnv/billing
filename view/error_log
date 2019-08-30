@@ -1,0 +1,382 @@
+[03-Jun-2018 05:22:48 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: ../images/logo.jpg in /home/citytrade/public_html/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/citytrade/public_html/lib/fpdf/fpdf.php(1164): FPDF->Error('Missing or inco...')
+#1 /home/citytrade/public_html/lib/fpdf/fpdf.php(833): FPDF->_parsejpg('../images/logo....')
+#2 /home/citytrade/public_html/includes/expresst.php(84): FPDF->Image('../images/logo....', 10, 10, 30)
+#3 /home/citytrade/public_html/lib/fpdf/fpdf.php(327): ExperssInvoice->Header()
+#4 /home/citytrade/public_html/view/receipt-view.php(115): FPDF->AddPage()
+#5 {main}
+  thrown in /home/citytrade/public_html/lib/fpdf/fpdf.php on line 265
+[03-Jun-2018 05:48:05 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: ../images/logo.jpg in /home/citytrade/public_html/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/citytrade/public_html/lib/fpdf/fpdf.php(1164): FPDF->Error('Missing or inco...')
+#1 /home/citytrade/public_html/lib/fpdf/fpdf.php(833): FPDF->_parsejpg('../images/logo....')
+#2 /home/citytrade/public_html/includes/expresst.php(84): FPDF->Image('../images/logo....', 10, 10, 30)
+#3 /home/citytrade/public_html/lib/fpdf/fpdf.php(327): ExperssInvoice->Header()
+#4 /home/citytrade/public_html/view/receipt-view.php(115): FPDF->AddPage()
+#5 {main}
+  thrown in /home/citytrade/public_html/lib/fpdf/fpdf.php on line 265
+[03-Jun-2018 05:48:07 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: ../images/logo.jpg in /home/citytrade/public_html/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/citytrade/public_html/lib/fpdf/fpdf.php(1164): FPDF->Error('Missing or inco...')
+#1 /home/citytrade/public_html/lib/fpdf/fpdf.php(833): FPDF->_parsejpg('../images/logo....')
+#2 /home/citytrade/public_html/includes/expresst.php(84): FPDF->Image('../images/logo....', 10, 10, 30)
+#3 /home/citytrade/public_html/lib/fpdf/fpdf.php(327): ExperssInvoice->Header()
+#4 /home/citytrade/public_html/view/receipt-view.php(115): FPDF->AddPage()
+#5 {main}
+  thrown in /home/citytrade/public_html/lib/fpdf/fpdf.php on line 265
+[03-Jun-2018 05:48:08 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: ../images/logo.jpg in /home/citytrade/public_html/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/citytrade/public_html/lib/fpdf/fpdf.php(1164): FPDF->Error('Missing or inco...')
+#1 /home/citytrade/public_html/lib/fpdf/fpdf.php(833): FPDF->_parsejpg('../images/logo....')
+#2 /home/citytrade/public_html/includes/expresst.php(84): FPDF->Image('../images/logo....', 10, 10, 30)
+#3 /home/citytrade/public_html/lib/fpdf/fpdf.php(327): ExperssInvoice->Header()
+#4 /home/citytrade/public_html/view/receipt-view.php(115): FPDF->AddPage()
+#5 {main}
+  thrown in /home/citytrade/public_html/lib/fpdf/fpdf.php on line 265
+[03-Jun-2018 05:48:12 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: ../images/logo.jpg in /home/citytrade/public_html/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/citytrade/public_html/lib/fpdf/fpdf.php(1164): FPDF->Error('Missing or inco...')
+#1 /home/citytrade/public_html/lib/fpdf/fpdf.php(833): FPDF->_parsejpg('../images/logo....')
+#2 /home/citytrade/public_html/includes/expresst.php(84): FPDF->Image('../images/logo....', 10, 10, 30)
+#3 /home/citytrade/public_html/lib/fpdf/fpdf.php(327): ExperssInvoice->Header()
+#4 /home/citytrade/public_html/view/receipt-view.php(115): FPDF->AddPage()
+#5 {main}
+  thrown in /home/citytrade/public_html/lib/fpdf/fpdf.php on line 265
+[03-Jun-2018 05:48:17 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: ../images/logo.jpg in /home/citytrade/public_html/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/citytrade/public_html/lib/fpdf/fpdf.php(1164): FPDF->Error('Missing or inco...')
+#1 /home/citytrade/public_html/lib/fpdf/fpdf.php(833): FPDF->_parsejpg('../images/logo....')
+#2 /home/citytrade/public_html/includes/expresst.php(84): FPDF->Image('../images/logo....', 10, 10, 30)
+#3 /home/citytrade/public_html/lib/fpdf/fpdf.php(327): ExperssInvoice->Header()
+#4 /home/citytrade/public_html/view/receipt-view.php(115): FPDF->AddPage()
+#5 {main}
+  thrown in /home/citytrade/public_html/lib/fpdf/fpdf.php on line 265
+[03-Jun-2018 05:48:18 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: ../images/logo.jpg in /home/citytrade/public_html/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/citytrade/public_html/lib/fpdf/fpdf.php(1164): FPDF->Error('Missing or inco...')
+#1 /home/citytrade/public_html/lib/fpdf/fpdf.php(833): FPDF->_parsejpg('../images/logo....')
+#2 /home/citytrade/public_html/includes/expresst.php(84): FPDF->Image('../images/logo....', 10, 10, 30)
+#3 /home/citytrade/public_html/lib/fpdf/fpdf.php(327): ExperssInvoice->Header()
+#4 /home/citytrade/public_html/view/receipt-view.php(115): FPDF->AddPage()
+#5 {main}
+  thrown in /home/citytrade/public_html/lib/fpdf/fpdf.php on line 265
+[03-Jun-2018 05:48:18 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: ../images/logo.jpg in /home/citytrade/public_html/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/citytrade/public_html/lib/fpdf/fpdf.php(1164): FPDF->Error('Missing or inco...')
+#1 /home/citytrade/public_html/lib/fpdf/fpdf.php(833): FPDF->_parsejpg('../images/logo....')
+#2 /home/citytrade/public_html/includes/expresst.php(84): FPDF->Image('../images/logo....', 10, 10, 30)
+#3 /home/citytrade/public_html/lib/fpdf/fpdf.php(327): ExperssInvoice->Header()
+#4 /home/citytrade/public_html/view/receipt-view.php(115): FPDF->AddPage()
+#5 {main}
+  thrown in /home/citytrade/public_html/lib/fpdf/fpdf.php on line 265
+[03-Jun-2018 05:48:19 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: ../images/logo.jpg in /home/citytrade/public_html/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/citytrade/public_html/lib/fpdf/fpdf.php(1164): FPDF->Error('Missing or inco...')
+#1 /home/citytrade/public_html/lib/fpdf/fpdf.php(833): FPDF->_parsejpg('../images/logo....')
+#2 /home/citytrade/public_html/includes/expresst.php(84): FPDF->Image('../images/logo....', 10, 10, 30)
+#3 /home/citytrade/public_html/lib/fpdf/fpdf.php(327): ExperssInvoice->Header()
+#4 /home/citytrade/public_html/view/receipt-view.php(115): FPDF->AddPage()
+#5 {main}
+  thrown in /home/citytrade/public_html/lib/fpdf/fpdf.php on line 265
+[03-Jun-2018 05:48:19 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: ../images/logo.jpg in /home/citytrade/public_html/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/citytrade/public_html/lib/fpdf/fpdf.php(1164): FPDF->Error('Missing or inco...')
+#1 /home/citytrade/public_html/lib/fpdf/fpdf.php(833): FPDF->_parsejpg('../images/logo....')
+#2 /home/citytrade/public_html/includes/expresst.php(84): FPDF->Image('../images/logo....', 10, 10, 30)
+#3 /home/citytrade/public_html/lib/fpdf/fpdf.php(327): ExperssInvoice->Header()
+#4 /home/citytrade/public_html/view/receipt-view.php(115): FPDF->AddPage()
+#5 {main}
+  thrown in /home/citytrade/public_html/lib/fpdf/fpdf.php on line 265
+[03-Jun-2018 05:48:23 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: ../images/logo.jpg in /home/citytrade/public_html/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/citytrade/public_html/lib/fpdf/fpdf.php(1164): FPDF->Error('Missing or inco...')
+#1 /home/citytrade/public_html/lib/fpdf/fpdf.php(833): FPDF->_parsejpg('../images/logo....')
+#2 /home/citytrade/public_html/includes/expresst.php(84): FPDF->Image('../images/logo....', 10, 10, 30)
+#3 /home/citytrade/public_html/lib/fpdf/fpdf.php(327): ExperssInvoice->Header()
+#4 /home/citytrade/public_html/view/receipt-view.php(115): FPDF->AddPage()
+#5 {main}
+  thrown in /home/citytrade/public_html/lib/fpdf/fpdf.php on line 265
+[03-Jun-2018 05:48:24 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: ../images/logo.jpg in /home/citytrade/public_html/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/citytrade/public_html/lib/fpdf/fpdf.php(1164): FPDF->Error('Missing or inco...')
+#1 /home/citytrade/public_html/lib/fpdf/fpdf.php(833): FPDF->_parsejpg('../images/logo....')
+#2 /home/citytrade/public_html/includes/expresst.php(84): FPDF->Image('../images/logo....', 10, 10, 30)
+#3 /home/citytrade/public_html/lib/fpdf/fpdf.php(327): ExperssInvoice->Header()
+#4 /home/citytrade/public_html/view/receipt-view.php(115): FPDF->AddPage()
+#5 {main}
+  thrown in /home/citytrade/public_html/lib/fpdf/fpdf.php on line 265
+[03-Jun-2018 05:52:16 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: ../images/logo.jpg in /home/citytrade/public_html/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/citytrade/public_html/lib/fpdf/fpdf.php(1164): FPDF->Error('Missing or inco...')
+#1 /home/citytrade/public_html/lib/fpdf/fpdf.php(833): FPDF->_parsejpg('../images/logo....')
+#2 /home/citytrade/public_html/includes/expresst.php(84): FPDF->Image('../images/logo....', 10, 10, 30)
+#3 /home/citytrade/public_html/lib/fpdf/fpdf.php(327): ExperssInvoice->Header()
+#4 /home/citytrade/public_html/view/receipt-view.php(115): FPDF->AddPage()
+#5 {main}
+  thrown in /home/citytrade/public_html/lib/fpdf/fpdf.php on line 265
+[05-Jun-2018 09:43:31 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: ../images/logo.jpg in /home/citytrade/public_html/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/citytrade/public_html/lib/fpdf/fpdf.php(1164): FPDF->Error('Missing or inco...')
+#1 /home/citytrade/public_html/lib/fpdf/fpdf.php(833): FPDF->_parsejpg('../images/logo....')
+#2 /home/citytrade/public_html/includes/expresst.php(84): FPDF->Image('../images/logo....', 10, 10, 30)
+#3 /home/citytrade/public_html/lib/fpdf/fpdf.php(327): ExperssInvoice->Header()
+#4 /home/citytrade/public_html/view/invoice-view.php(118): FPDF->AddPage()
+#5 {main}
+  thrown in /home/citytrade/public_html/lib/fpdf/fpdf.php on line 265
+[05-Jun-2018 09:44:18 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: ../images/logo.jpg in /home/citytrade/public_html/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/citytrade/public_html/lib/fpdf/fpdf.php(1164): FPDF->Error('Missing or inco...')
+#1 /home/citytrade/public_html/lib/fpdf/fpdf.php(833): FPDF->_parsejpg('../images/logo....')
+#2 /home/citytrade/public_html/includes/expresst.php(84): FPDF->Image('../images/logo....', 10, 10, 30)
+#3 /home/citytrade/public_html/lib/fpdf/fpdf.php(327): ExperssInvoice->Header()
+#4 /home/citytrade/public_html/view/invoice-view.php(118): FPDF->AddPage()
+#5 {main}
+  thrown in /home/citytrade/public_html/lib/fpdf/fpdf.php on line 265
+[05-Jun-2018 09:47:11 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: ../images/logo.jpg in /home/citytrade/public_html/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/citytrade/public_html/lib/fpdf/fpdf.php(1164): FPDF->Error('Missing or inco...')
+#1 /home/citytrade/public_html/lib/fpdf/fpdf.php(833): FPDF->_parsejpg('../images/logo....')
+#2 /home/citytrade/public_html/includes/expresst.php(84): FPDF->Image('../images/logo....', 10, 10, 30)
+#3 /home/citytrade/public_html/lib/fpdf/fpdf.php(327): ExperssInvoice->Header()
+#4 /home/citytrade/public_html/view/invoice-view.php(118): FPDF->AddPage()
+#5 {main}
+  thrown in /home/citytrade/public_html/lib/fpdf/fpdf.php on line 265
+[05-Jun-2018 16:43:47 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacomy/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacomy/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacomy/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacomy/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacomy/public_html/bill/view/payment-view.php(108): FPDF->Output('I', 'Sainul _05-06-2...')
+#3 {main}
+  thrown in /home/imacomy/public_html/bill/lib/fpdf/fpdf.php on line 265
+[03-Sep-2018 07:41:50 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacomy/public_html/bill2/lib/fpdf/fpdf.php:958) in /home/imacomy/public_html/bill2/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacomy/public_html/bill2/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacomy/public_html/bill2/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacomy/public_html/bill2/view/invoice-view.php(151): FPDF->Output('I', '2525_nisam.pdf')
+#3 {main}
+  thrown in /home/imacomy/public_html/bill2/lib/fpdf/fpdf.php on line 265
+[03-Sep-2018 11:18:12 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacomy/public_html/bill2/lib/fpdf/fpdf.php:958) in /home/imacomy/public_html/bill2/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacomy/public_html/bill2/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacomy/public_html/bill2/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacomy/public_html/bill2/view/invoice-view.php(151): FPDF->Output('I', '2528_PHC OMASSE...')
+#3 {main}
+  thrown in /home/imacomy/public_html/bill2/lib/fpdf/fpdf.php on line 265
+[29-Sep-2018 10:55:51 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/quote-view.php(144): FPDF->Output('I', '155_shanthi hos...')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[29-Sep-2018 11:02:09 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/quote-view.php(144): FPDF->Output('I', '155_shanthi hos...')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[29-Sep-2018 11:02:48 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/quote-view.php(144): FPDF->Output('I', '155_shanthi hos...')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[29-Sep-2018 11:04:33 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/quote-view.php(144): FPDF->Output('I', '155_shanthi hos...')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[29-Sep-2018 11:13:20 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/quote-view.php(144): FPDF->Output('I', '156_shanthi hos...')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[01-Oct-2018 07:06:15 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/quote-view.php(144): FPDF->Output('I', '157_shanthi hos...')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[01-Oct-2018 07:08:28 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/quote-view.php(144): FPDF->Output('I', '157_shanthi hos...')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[19-Jan-2019 05:59:57 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/invoice-view.php(151): FPDF->Output('I', '1059_casino off...')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[19-Jan-2019 12:57:54 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/receipt-view.php(142): FPDF->Output('I', '8255_M3 HIKISIO...')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[26-Jan-2019 07:47:06 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/invoice-view.php(151): FPDF->Output('I', '1067_DINAR GOLD...')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[29-Jan-2019 15:28:22 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/payment-view.php(108): FPDF->Output('I', 'TOUCH_29-01-201...')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[08-Feb-2019 10:36:08 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/invoice-view.php(151): FPDF->Output('I', '1089_ARAFA BAKA...')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[08-Feb-2019 11:10:17 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/invoice-view.php(151): FPDF->Output('I', '1089_ARAFA BAKA...')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[12-Feb-2019 11:31:10 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/invoice-view.php(151): FPDF->Output('I', '1096_TOUCH.pdf')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[19-Feb-2019 06:57:57 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/invoice-view.php(151): FPDF->Output('I', '1099_KAREETTIPA...')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[19-Feb-2019 07:07:06 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/invoice-view.php(151): FPDF->Output('I', '1101_TOUCH.pdf')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[28-Feb-2019 10:09:38 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/invoice-view.php(151): FPDF->Output('I', '1111_ASHIQUE.pd...')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[07-Mar-2019 10:34:31 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/invoice-view.php(151): FPDF->Output('I', '1116_ASHIQUE .p...')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[08-Mar-2019 17:52:01 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/invoice-view.php(151): FPDF->Output('I', '1120_JAFAR .pdf')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[20-Mar-2019 05:42:48 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/invoice-view.php(151): FPDF->Output('I', '1130_TOUCH.pdf')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[20-Mar-2019 07:09:56 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/invoice-view.php(151): FPDF->Output('I', '1130_TOUCH.pdf')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[21-Mar-2019 11:04:21 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/invoice-view.php(151): FPDF->Output('I', '1133_TOUCH.pdf')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[25-Mar-2019 15:22:06 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/invoice-view.php(151): FPDF->Output('I', '1134_BRANDO.pdf')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[04-Apr-2019 08:45:55 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/invoice-view.php(151): FPDF->Output('I', '1133_TOUCH.pdf')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[12-Apr-2019 16:34:55 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/invoice-view.php(151): FPDF->Output('I', '1147_IMAC COCHI...')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[20-May-2019 09:16:06 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/invoice-view.php(151): FPDF->Output('I', '1167_NAVAS KOOD...')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[22-May-2019 08:30:37 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/invoice-view.php(151): FPDF->Output('I', '1169_IMAC COCHI...')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[31-May-2019 05:45:21 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/invoice-view.php(151): FPDF->Output('I', '1173_TOUCH.pdf')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[08-Jul-2019 06:11:17 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/invoice-view.php(151): FPDF->Output('I', '1193_ALI AJMAL....')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[12-Jul-2019 11:47:49 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/invoice-view.php(151): FPDF->Output('I', '1195_TOUCH.pdf')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265
+[12-Jul-2019 11:48:16 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/imacom/public_html/bill/lib/fpdf/fpdf.php:958) in /home/imacom/public_html/bill/lib/fpdf/fpdf.php:265
+Stack trace:
+#0 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(992): FPDF->Error('Some data has a...')
+#1 /home/imacom/public_html/bill/lib/fpdf/fpdf.php(941): FPDF->_checkoutput()
+#2 /home/imacom/public_html/bill/view/invoice-view.php(151): FPDF->Output('I', '1195_TOUCH.pdf')
+#3 {main}
+  thrown in /home/imacom/public_html/bill/lib/fpdf/fpdf.php on line 265

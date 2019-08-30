@@ -1,0 +1,23 @@
+[02-Sep-2018 14:40:16 Asia/Calcutta] PHP Notice:  Undefined property via __get(): group_id in /home/imacomy/public_html/bill2/request/e_control.php on line 27 in /home/imacomy/public_html/bill2/lib/user/UserBase.php on line 187
+[03-Sep-2018 14:39:18 Asia/Calcutta] PHP Notice:  Undefined property via __get(): group_id in /home/imacomy/public_html/bill2/request/e_control.php on line 27 in /home/imacomy/public_html/bill2/lib/user/UserBase.php on line 187
+[30-Sep-2018 10:56:56 UTC] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[30-Sep-2018 10:56:56 UTC] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/cpanel/php/sessions/ea-php70) in Unknown on line 0
+[30-Sep-2018 10:57:04 UTC] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[30-Sep-2018 10:57:04 UTC] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/cpanel/php/sessions/ea-php70) in Unknown on line 0
+[30-Sep-2018 10:57:18 UTC] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[30-Sep-2018 10:57:18 UTC] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/cpanel/php/sessions/ea-php70) in Unknown on line 0
+[30-Sep-2018 10:57:23 UTC] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[30-Sep-2018 10:57:23 UTC] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/cpanel/php/sessions/ea-php70) in Unknown on line 0
+[02-Jan-2019 16:01:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function results() on null in /home/imacom/public_html/bill/request/mini.php:270
+Stack trace:
+#0 {main}
+  thrown in /home/imacom/public_html/bill/request/mini.php on line 270
+[30-Jan-2019 13:12:39 UTC] PHP Notice:  Undefined property via __get(): group_id in /home/imacom/public_html/bill/request/listinex.php on line 181 in /home/imacom/public_html/bill/lib/user/UserBase.php on line 187
+[30-Jan-2019 13:12:40 UTC] PHP Notice:  Undefined property via __get(): group_id in /home/imacom/public_html/bill/request/listinex.php on line 181 in /home/imacom/public_html/bill/lib/user/UserBase.php on line 187
+[30-Jan-2019 13:12:40 UTC] PHP Notice:  Undefined property via __get(): group_id in /home/imacom/public_html/bill/request/listinex.php on line 181 in /home/imacom/public_html/bill/lib/user/UserBase.php on line 187
+[30-Jan-2019 13:12:40 UTC] PHP Notice:  Undefined property via __get(): group_id in /home/imacom/public_html/bill/request/listinex.php on line 181 in /home/imacom/public_html/bill/lib/user/UserBase.php on line 187
+[30-Jan-2019 13:12:41 UTC] PHP Notice:  Undefined property via __get(): group_id in /home/imacom/public_html/bill/request/listinex.php on line 181 in /home/imacom/public_html/bill/lib/user/UserBase.php on line 187
+[30-Jan-2019 13:12:42 UTC] PHP Notice:  Undefined property via __get(): group_id in /home/imacom/public_html/bill/request/listinex.php on line 181 in /home/imacom/public_html/bill/lib/user/UserBase.php on line 187
+[07-Feb-2019 12:42:58 UTC] PHP Notice:  Undefined property via __get(): group_id in /home/imacom/public_html/bill/request/listinex.php on line 181 in /home/imacom/public_html/bill/lib/user/UserBase.php on line 187
+[07-Feb-2019 12:42:59 UTC] PHP Notice:  Undefined property via __get(): group_id in /home/imacom/public_html/bill/request/listinex.php on line 181 in /home/imacom/public_html/bill/lib/user/UserBase.php on line 187
+[07-Feb-2019 12:42:59 UTC] PHP Notice:  Undefined property via __get(): group_id in /home/imacom/public_html/bill/request/listinex.php on line 181 in /home/imacom/public_html/bill/lib/user/UserBase.php on line 187

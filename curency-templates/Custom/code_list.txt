@@ -1,0 +1,7 @@
+Please search google 
+Example
+Unicode for YEN is 165
+
+Or you can find here
+
+https://gist.github.com/bzerangue/5484121
