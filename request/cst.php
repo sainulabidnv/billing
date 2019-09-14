@@ -288,6 +288,74 @@ if ($user->group_id <= 2) {
             }
             break;
 
+        case "fileupload" :
+            
+            $id = intval($_POST["id"]);
+            $name = $_POST['name'];
+            $dataArray = array('name' => $name, 'inv_id' => $id);
+            $status = $db->insert('fileupload', $dataArray)->rStatus();
+            if ($status == true) {
+                echo json_encode(array('status' => 'Success', 'message' =>
+                    'File has been added successfully!'));
+            } else {
+                echo json_encode(array('status' => 'Error', 'message' =>
+                    'There has been an error, please try again.'));
+            }
+        break;
+
+        case "filedelete" :
+            
+            $name = $_POST['name'];
+            
+            $aWhere = array('name' => $name);
+           $db->delete('fileupload', $aWhere);
+
+           
+
+            //$dataArray = array('name' => $name, 'inv_id' => $id);
+            if ($status == true) {
+                echo json_encode(array('status' => 'Success', 'message' =>
+                    'File has been added successfully!'));
+            } else {
+                echo json_encode(array('status' => 'Error', 'message' =>
+                    'There has been an error, please try again.'));
+            }
+        break;
+        
+        case "getfileupload" :
+            
+            $id = intval($_POST["id"]);
+            //$dataArray = array('name' => $name, 'inv_id' => $id);
+            //$status = $db->insert('fileupload', $dataArray)->rStatus();
+
+            $query = "SELECT * FROM fileupload WHERE inv_id =". $id ;
+            $result = $db->pdoQuery($query)->results();
+            $html = '';
+            if (!empty($result)) {
+
+                foreach ($result as $row) {
+                    
+                    $html .= '
+                    <tr class="template-download fade in">
+                    <td>
+                        <span class="preview"> <a href="'.SITE.'images/invoice/'.$row["name"].'" ><img src="'.SITE.'images/invoice/thumbnail/'.$row["name"].'"></a> </span>
+                    </td>
+                    <td>  </td>
+                    <td>  </td>
+                    <td>
+                        <button class="btn btn-danger delete" data-name="'.$row["name"].'" data-type="DELETE" data-url="'.SITE.'includes/logo.php?file='.$row["name"].'">
+                        <i class="glyphicon glyphicon-trash"></i> <span>Delete</span>
+                        </button>
+                        <input type="checkbox" name="delete" value="1" class="toggle">
+                    </td>
+                    </tr>
+                    ';
+                }
+            }
+            echo json_encode(array('html' => $html));
+
+            break;
+
     }
 
 

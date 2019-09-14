@@ -25,6 +25,26 @@ global $siteConfig, $user;
 if (!$user->group_id == 1) {
     die('log in');
 }
+
+function update_settings($key,$value,$cat=1){ //this function copied in globalcf.php
+    global $db;
+   $query = "SELECT id FROM meta WHERE metakey='$key' ";
+    $result = $db->pdoQuery($query)->results();
+    if($result) {
+        $query = "UPDATE meta SET metakey='".$key."',metavalue='".$value."',metacat='".$cat."' WHERE metakey='".$key."'";
+        $db->pdoQuery($query)->rStatus() ;
+        return 2;
+        
+    }else {
+
+        $query = "INSERT INTO meta (metakey,metavalue,metacat) VALUES ('".$key."','".$value."','".$cat."')";
+         $db->pdoQuery($query)->results();
+         return 1; 
+        
+    }
+    
+}
+
 $act = isset($_POST['act']) ? $_POST['act'] : "";
 switch ($act) {
     case "update_company" :
@@ -33,8 +53,7 @@ switch ($act) {
         $address2 = $_POST['c_address2'];
         $contact = $_POST['numberc'];
         $mail = $_POST['emailc'];
-
-
+        
         $dataArray = array('cname' => $cname, 'address' => $address, 'address2' => $address2, 'phone' => $contact, 'email' => $mail);
 
         $status = $db->update('panel', $dataArray, array('id' => 0))->rStatus();
@@ -69,8 +88,9 @@ switch ($act) {
         } else {
             $vinc = 0;
         }
-
-
+        $show_payment_mode = empty($_POST['show_payment_mode']) ? 0 : $_POST['show_payment_mode'];
+        update_settings('show_payment_mode', $show_payment_mode ) ;
+        
         $dataArray = array('cvatno' => $cvtno, 'vatr' => $vrate,'vatr2' => $vrate2, 'vatst' => $vatst, 'vinc' => $vinc, 'crncy' => $crncy, 'fcrncy' => $fcrncy, 'pref' => $pref);
 
         $status = $db->update('panel', $dataArray, array('id' => 0))->rStatus();

@@ -131,6 +131,9 @@ if ($bill_status == 'partial') {
     $pdf->PTotal($paid,
         $due);
 }
+
+ if(get_settings('show_payment_mode') !=1) {$bill_status = '';}
+
 $pdf->BillTotal(array(
     $bill_upyog,
     $bill_disc,

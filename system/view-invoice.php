@@ -142,7 +142,9 @@ if ($result = $db->pdoQuery($query)->results()) {
                     $row['tid'] . '" data-csd="' . $row['csd'] .
                     '" class="btn btn-primary btn-sm send-invoice" title="Email"><span class="icon-mail4"></span>Email </a> <a data-invoice-id="' .
                     $row['tid'] . '" data-csd="' . $row['csd'] .
-                    '" class="btn btn-info btn-sm send-sms" title="SMS"><span class="icon-star-empty"></span>SMS </a> &nbsp; '; ?>
+                    '" class="btn btn-info btn-sm send-sms" title="SMS"><span class="icon-star-empty"></span>SMS </a> &nbsp; 
+                    <a data-invoice-id="'. $row['tid'] .'" class="btn btn-warning btn-sm fileupload"  title="Attachments"><span class="icon-link"></span></a>
+                    '; ?>
             </div>
             <!-- /.col -->
         </div>
@@ -481,6 +483,26 @@ if ($result = $db->pdoQuery($query)->results()) {
             <div class="modal-footer">
                 <button type="button" data-dismiss="modal" class="btn btn-primary" id="rmsend">Yes</button>
                 <button type="button" data-dismiss="modal" class="btn">No</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="fileupload" class="modal fade">
+    <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">File upload  </h4>
+            </div>
+            <div class="modal-body">
+            <div style="max-width:100%">
+                <?php include_once('system/fileupload.php'); ?>
+            </div>
+            </div>
+            <div class="modal-footer">
+                 <button type="button" data-dismiss="modal" class="btn">Cancel</button>
             </div>
         </div>
     </div>

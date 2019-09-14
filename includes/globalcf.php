@@ -54,3 +54,27 @@ switch ($row_conf['dfomat']) {
         break;
 }
 $siteConfig['zone'] = $row_conf['zone'];
+function get_settings($key){
+    global $db;
+    $query = "SELECT metavalue FROM meta WHERE metakey='$key' ";
+    $result = $db->pdoQuery($query)->result();
+    return $result['metavalue'];
+}
+function update_settings($key,$value,$cat=1){ //this function copied in rsetting.php
+    global $db;
+   $query = "SELECT id FROM meta WHERE metakey='$key' ";
+    $result = $db->pdoQuery($query)->results();
+    if($result) {
+        $query = "UPDATE meta SET metakey='".$key."',metavalue='".$value."',metacat='".$cat."' WHERE metakey='".$key."'";
+        $db->pdoQuery($query)->rStatus() ;
+        return 2;
+        
+    }else {
+
+        $query = "INSERT INTO meta (metakey,metavalue,metacat) VALUES ('".$key."','".$value."','".$cat."')";
+         $db->pdoQuery($query)->results();
+         return 1; 
+        
+    }
+    
+}

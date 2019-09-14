@@ -41,6 +41,12 @@ if (isset($_GET['page'])) {
 
 
 
+
+$uid = empty($_GET['uid'])? '' : ' && b.uid='.$_GET['uid'];
+$sdate = empty($_GET['sd'])? '' : ' && b.bdate >= "'.date('Y-m-d',strtotime($_GET['sd'])).'"';
+$edate = empty($_GET['ed'])? '' : ' && b.bdate <= "'.date('Y-m-d',strtotime($_GET['ed'])).'"';
+$cat = empty($_GET['cat'])? '' : ' && b.category="'.$_GET['cat'].'"';
+
 $primaryKey = 'id';
 if ($action == "income") {
     if ($user->group_id > 2) {
@@ -48,7 +54,8 @@ if ($action == "income") {
     }
     $joinQuery = "FROM ac_balance AS b LEFT JOIN reg_customers AS c ON b.uid=c.id";
     $table = 'ac_balance';
-    $where = 'b.stat=1 ';
+    $where = 'b.stat=1 '.$uid.$sdate.$edate.$cat;
+
     $columns = array(
         array('db' => 'b.id', 'dt' => null, 'field' => 'id',),
         array(
@@ -83,7 +90,7 @@ if ($action == "expense") {
     }
     $joinQuery = "FROM ac_balance AS b LEFT JOIN reg_customers AS c ON b.uid=c.id";
     $table = 'ac_balance';
-    $where = 'b.stat=0 ';
+    $where = 'b.stat=0 '.$uid.$sdate.$edate.$cat;
     $columns = array(
         array('db' => 'b.id', 'dt' => null, 'field' => 'id',),
         array(

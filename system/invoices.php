@@ -20,6 +20,7 @@ if (stristr(htmlentities($_SERVER['PHP_SELF']), "invoices.php")) {
 }
 //invoices
 
+ 
 ?>
 <div class="row">
     <div class="col-lg-12">
@@ -79,3 +80,24 @@ if (stristr(htmlentities($_SERVER['PHP_SELF']), "invoices.php")) {
         </div>
     </div>
 </div>
+
+<div id="fileupload" class="modal fade">
+    <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">File upload  </h4>
+            </div>
+            <div class="modal-body">
+            <div style="max-width:100%">
+                <?php include_once('system/fileupload.php'); ?>
+            </div>
+            </div>
+            <div class="modal-footer">
+                 <button type="button" data-dismiss="modal" class="btn">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+

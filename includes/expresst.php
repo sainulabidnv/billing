@@ -285,6 +285,7 @@ class ExperssInvoice extends FPDF
             $this->SetFont($this->font, '', 10);
         }
 
+        $notey = $this->GetY();
         $this->SetXY($x + 128, $y);
         $col2 = SUB;
         $this->MultiCell(36, 10, $col2, 1, 'L', true);
@@ -344,7 +345,7 @@ class ExperssInvoice extends FPDF
             $this->MultiCell(28, 10, $this->curr . '' . $this->amountFormat($detail[3]), 1,
                 'R');
         }
-        if ($this->paid != '') {
+        if ($this->paid = '') {
             $y = $this->GetY();
             $this->SetXY($x + 128, $y);
             $col3 = TTL;
@@ -383,19 +384,24 @@ class ExperssInvoice extends FPDF
 
         $this->MultiCell(28, 10, $this->curr . '' . $this->amountFormat($this->due), 1,
             'R', false);
-        $this->Ln();
+        
+        if($this->GetY() < $notey){ $y = $notey ;}else {$y = $this->GetY();}
+            $this->SetXY($x, $y);
+            $this->Ln();
     }
 
 
     function Terms($terms)
     {
         // Billing Terms
+        $y = $this->GetY();
         $this->Ln(6);
         $this->SetFont($this->font, 'B', 12);
         $this->Cell(0, 6, NOTE, 0, 1, 'L');
-        $this->Line(10, $this->GetY(), 200, $this->GetY());
+        $this->Line(10, $y, 200, $y);
         $this->SetFont($this->font, '', 9);
         $this->MultiAlignCell(190, 8, iconv('UTF-8', 'windows-1252', $terms), 0, 0, 'L');
+        
 
 
     }

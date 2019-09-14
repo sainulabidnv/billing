@@ -95,8 +95,9 @@ $columns = array(
         'formatter' => function ($d, $row) {
             $buttons = '<a href="index.php?rdp=view-invoice&id=' . $row["tid"] .
                 '" class="btn btn-success btn-xs"><span class="icon-file-text2"></span>View</a> &nbsp; <a href="view/invoice-view.php?id=' .
-                $row["tid"] . '&download=1" class="btn btn-info btn-xs"  title="Download"><span class="icon-download2"></span></a>&nbsp; &nbsp;<a data-invoice-id="' .
-                $row['tid'] . '" class="btn btn-danger btn-xs delete-invoice"  title="Delete"><span class="icon-bin"></span></a>';
+                $row["tid"] . '&download=1" class="btn btn-info btn-xs"  title="Download"><span class="icon-download2"></span></a> &nbsp; &nbsp;
+                <a data-invoice-id="'. $row['tid'] .'" class="btn btn-danger btn-xs delete-invoice"  title="Delete"><span class="icon-bin"></span></a>
+                <a data-invoice-id="'. $row['tid'] .'" class="btn btn-warning btn-xs fileupload"  title="Attachments"><span class="icon-link"></span></a>';
             return $buttons;
         }
     ));

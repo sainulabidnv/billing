@@ -435,8 +435,33 @@ function goals()
 
 function aclist()
 {
-    global $user;
+    global $db, $user, $siteConfig;
+    //print_r($siteConfig);exit;
+
+    $uid = empty($_GET['uid'])? '' : '&uid='.$_GET['uid'];
+    $sdate = empty($_GET['sd'])? '' : '&sd='.$_GET['sd'];
+    $edate = empty($_GET['ed'])? '' : '&ed='.$_GET['ed'];
+    $cat = empty($_GET['cat'])? '' : '&cat='.$_GET['cat'];
+
+    $quid = empty($_GET['uid'])? '' : ' && uid='.$_GET['uid'];
+    $qsdate = empty($_GET['sd'])? '' : ' && bdate >= "'.date('Y-m-d',strtotime($_GET['sd'])).'"';
+    $qedate = empty($_GET['ed'])? '' : ' && bdate <= "'.date('Y-m-d',strtotime($_GET['ed'])).'"';
+    $qcat = empty($_GET['cat'])? '' : ' && category="'.$_GET['cat'].'"';
+
+//echo $quid.$qsdate.$qedate.$qcat; exit;
+    $tincome = $db->sum('ac_balance', 'amount', 'stat=1'.$quid.$qsdate.$qedate.$qcat);
+    $texpense = $db->sum('ac_balance', 'amount', 'stat=0'.$quid.$qsdate.$qedate.$qcat);
+    $tbalance = $tincome-$texpense;
     
+    //$query = "SELECT DISTINCT uid FROM ac_balance Where uid !=0 ";
+    $query = "SELECT DISTINCT b.uid, c.name FROM ac_balance AS b LEFT JOIN reg_customers AS c ON b.uid=c.id Where uid !=0 ";
+    $userlist = $db->pdoQuery($query)->results();
+
+    $cquery = "SELECT DISTINCT category FROM ac_balance  Where category !='' ";
+    $catlist = $db->pdoQuery($cquery)->results();
+    //echo '<pre>';
+    //print_r($catlist);exit;
+
     ?>
 
 
@@ -461,13 +486,13 @@ function aclist()
                         stateSave: true,
                         "processing": true,
                         "serverSide": true,
-                        "ajax": "request/listinex.php?page=income"
+                        "ajax": "request/listinex.php?page=income<?php echo $uid.$sdate.$edate.$cat; ?>"
                     });
                     $('#blist2').DataTable({
                         stateSave: true,
                         "processing": true,
                         "serverSide": true,
-                        "ajax": "request/listinex.php?page=expense"
+                        "ajax": "request/listinex.php?page=expense<?php echo $uid.$sdate.$edate.$cat; ?>"
                     });
                 });
             </script>
@@ -488,6 +513,80 @@ function aclist()
                         href="index.php?rdp=reports&op=monthly" class="btn btn-primary"><span
                             class="icon-calendar"></span> &nbsp; Monthly Sales Reports</a>';
                     } ?></p></div>
+        </div>
+
+        <div class="panel panel-default">
+			<div class="panel-heading">
+				<h4>Receipts List Vendor/Supplier Wise</h4>
+			</div>
+			<div class="panel-body tbl"> 
+			<div class="vendortotal">
+				<div class="col-md-4">
+				<p> Total Income : <strong><?php echo $siteConfig['curr'].$tincome; ?> </strong> </p>
+				<p> Total Expense : <strong><?php echo $siteConfig['curr'].$texpense; ?></strong> </p>
+				<p> Balance : <strong><?php echo $siteConfig['curr'].$tbalance; ?></strong> </p>
+				</div>
+				
+				<div class="col-md-7">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                        <form method="get" action="http://192.168.1.2/projects/billing/">
+                            <div class="col-md-3">
+
+                                <div class="form-group">
+                                    <div class="input-group date" id="tsn_due">
+                                        <input type="text" class="form-control required" name="sd" value="<?php if($_GET['sd']!='') { echo date('d-m-Y',strtotime($_GET['sd']));} ?>" data-date-format="<?php echo $siteConfig['dformat2'];?>"/> <span class="input-group-addon"> <span class="icon-calendar"></span> </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <div class="input-group date" id="tsn_date">
+                                        <input type="text" class="form-control required" name="ed" value="<?php if($_GET['ed']!='') { echo date('d-m-Y',strtotime($_GET['ed']));} ?>" data-date-format="<?php echo $siteConfig['dformat2'];?>"/> <span class="input-group-addon"> <span class="icon-calendar"></span> </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <div class="input-group" >
+                                        <select name="uid">
+                                            <option value=""> All User </option> 
+                                            <?php 
+                                            foreach($userlist as $usr){ ?>
+                                                <option <?php if(isset($_GET['uid']) and $_GET['uid'] ==$usr['uid']) { echo 'selected';} ?> value="<?php echo $usr['uid']; ?>"> <?php echo $usr['name']; ?> </option>
+                                            <?php }
+                                            ?>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <div class="input-group" >
+                                        <select name="cat">
+                                            <option value=""> All Category </option> 
+                                            <?php 
+                                            foreach($catlist as $cat){ ?>
+                                                <option <?php if(isset($_GET['cat']) and $_GET['cat'] == $cat['category']) { echo 'selected';} ?> value="<?php echo $cat['category']; ?>"> <?php echo $cat['category']; ?> </option>
+                                            <?php }
+                                            ?>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                            	<input type="hidden" name="rdp" value="balance" />
+                                <button type="submit" class="btn btn-primary "> Report </button>
+                            </div>
+                            <div class="clearfix"></div>
+                            </form>
+                		</div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+				
+				<hr>
+			</div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading ">

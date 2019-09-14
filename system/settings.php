@@ -91,7 +91,8 @@ function company()
 		e.preventDefault();
 		updateCompany();
 	});  	function updateCompany() {
-		var errorNum = farmCheck();
+        var errorNum = farmCheck();
+        
 
 		if (errorNum > 0) {
 		    $("#notify").removeClass("alert-success").addClass("alert-warning").fadeIn();
@@ -289,7 +290,7 @@ function billing()
     $curr = $row['crncy'];
     $fcurr = $row['fcrncy'];
     $pref = $row['pref'];
-
+    $show_payment_mode = get_settings('show_payment_mode');
 ?>
 <script type="text/javascript">
  		$(document).on('click', "#action_update_billing", function(e) {
@@ -387,17 +388,19 @@ function billing()
                                                 <label class="col-sm-4 control-label margin-bottom">Enable TAX/VAT</label>
                                                 <div class="col-sm-6">
                                                     <div class="input-group margin-bottom">
-								<input type="checkbox" name="vstat" value="1" <?php
+								                        <input type="checkbox" name="vstat" value="1" <?php if ($vatst == 1)  { ?> checked<?php } ?>>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-sm-4 control-label margin-bottom">Show Payment mode in bill</label>
+                                                <div class="col-sm-6">
+                                                    <div class="input-group margin-bottom">
+								                        <input type="checkbox" name="show_payment_mode" value="1" <?php if ($show_payment_mode == 1)  { ?> checked<?php } ?>>
+                                                    </div>
+                                                </div>
+                                            </div>
 
-    if ($vatst == 1)
-    {
-
-?> checked<?php
-
-    }
-
-?>>
-							</div></div></div>
 											<div class="form-group">
                                                 <label class="col-sm-4 control-label margin-bottom">SGST  RATE</label>
                                                 <div class="col-sm-6">  
