@@ -438,7 +438,7 @@ function plist($cat)
 
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h4>Product List</h4>
+                <h4>Product List 2</h4>
             </div>
             <div class="panel-body tbl">
                 <script type="text/javascript">
@@ -467,8 +467,6 @@ function plist($cat)
                         <th>Wholesale Price <?php echo $siteConfig['curr']; ?></th>
                         <th>Stock Status</th>
                         <th>Barcode</th>
-
-                        <th>Settings</th>
 
                     </tr>
                     </thead>

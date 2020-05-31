@@ -115,6 +115,8 @@ $pdf->payee($grahak_name, $grahak_adrs1, $grahak_adrs2, "Phone: " . $grahak_phon
 $pdf->SetTitle('Quote');
 $pdf->AddPage();
 //print biller,customer details
+
+
 $pdf->Party();
 //iproduct list
 $query = "SELECT *
@@ -123,6 +125,8 @@ $query = "SELECT *
 
 $resultp = $db->pdoQuery($query)->results();
 $pdf->BillBody($resultp);
+
+
 //total
 $pdf->BillTotal(array(
     $bill_upyog,
@@ -134,8 +138,9 @@ $pdf->BillTotal(array(
     $bill_status,
 	$bill_tax2));
 
+
 //billing terms
-$pdf->Terms($terms);
+$pdf->Terms($bill_notes);
 $pdf->FooterNote($footer);
 //billing output
 if (isset($_GET['download'])) {

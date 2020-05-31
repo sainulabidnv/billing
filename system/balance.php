@@ -530,7 +530,7 @@ function aclist()
 				<div class="col-md-7">
                     <div class="panel panel-default">
                         <div class="panel-body">
-                        <form method="get" action="http://192.168.1.2/projects/billing/">
+                        <form method="get" action="/">
                             <div class="col-md-3">
 
                                 <div class="form-group">

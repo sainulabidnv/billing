@@ -128,11 +128,9 @@ $pdf->BillBody($resultp);
 //total
 if ($bill_status == 'partial') {
     $due = $bill_yog - $paid;
-    $pdf->PTotal($paid,
-        $due);
+    $pdf->PTotal($paid,  $due);
 }
-
- if(get_settings('show_payment_mode') !=1) {$bill_status = '';}
+ //if(get_settings('show_payment_mode') !=1) {$bill_status = '';}
 
 $pdf->BillTotal(array(
     $bill_upyog,
@@ -145,7 +143,7 @@ $pdf->BillTotal(array(
 	$bill_tax2,));
 
 //billing terms
-$pdf->Terms($terms);
+$pdf->Terms($bill_notes);
 $pdf->FooterNote($footer);
 //billing output
 if (isset($_GET['download'])) {

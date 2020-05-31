@@ -3,6 +3,6 @@ $dbhost = 'localhost';
 $dbuser = 'admin';
 $dbpass = '1234';
 $dbname = 'billing';
-define('SITE','http://192.168.1.2/projects/billing/');
+define('SITE','http://localhost/projects/billing/');
 define('IKEY','6BTV51');
 

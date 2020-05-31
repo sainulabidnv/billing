@@ -40,6 +40,10 @@ switch ($op) {
         qlist();
         break;
 }
+?>
+<script src="https://cdn.tiny.cloud/1/49no1jj6ibhcqhfbpjsw2e88wnwz7op95yrxqf3zaed4px5d/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+  <script>tinymce.init({selector:'textarea'});</script>
+<?php 
 function create()
 {
     global $siteConfig, $user;
@@ -447,6 +451,7 @@ function create()
     <script type="text/javascript">
         $("#action_create_quote").click(function (e) {
             e.preventDefault();
+            $('#' + 'invoice_notes').html( tinymce.get('invoice_notes').getContent() );
             actionCreateQuote();
         });
         function actionCreateQuote() {
@@ -1204,6 +1209,7 @@ function editq($id)
         <script type="text/javascript">
             $("#action_edit_quote").click(function (e) {
                 e.preventDefault();
+                $('#' + 'invoice_notes').html( tinymce.get('invoice_notes').getContent() );
                 updateInvoice();
             });
             function updateInvoice() {

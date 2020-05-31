@@ -1,0 +1,2 @@
+27/02/2020 : Added text editor (includes/expressst.php, billing/quote.php) 
+sql (varchar to long text): ALTER TABLE `quote` CHANGE `notes` `notes` LONGTEXT CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL;

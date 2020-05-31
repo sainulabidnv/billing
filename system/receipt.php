@@ -145,18 +145,17 @@ function create()
         <div class="row bg-light-blue color-palette margin-t padding-f">
 
 
-            <div class="ol-xs-12 col-md-6 col-lg-5 mol-5"><a href="#" class="btn btn-warning btn-xs add-row"><span
-                            class="icon-plus"></span><strong>Add empty</strong></a> PRODUCTS ROW
-            </div>
-           
-            
-            <div class="col-xs-12 col-md-3 col-lg-1 mol-1">QTY</div>
+        <div class="ol-xs-12 col-md-5 col-lg-4 mol-4"><a href="#" class="btn btn-warning btn-xs add-row"><span
+                        class="icon-plus"></span><strong>Add empty </strong></a> PRODUCTS ROW
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-1 mol-1">QTY</div>
         <div class="col-xs-12 col-md-6 col-lg-2 mol-2">UNIT PRICE</div>
         <div class="col-xs-12 col-md-3 col-lg-1 mol-1">SGST</div>
         <div class="col-xs-12 col-md-3 col-lg-1 mol-1">CGST</div>
-        <div class="col-xs-12 col-md-3 col-lg-1 mol-1" style="border-right:0">SUBTOTAL</div>
+        <div class="col-xs-12 col-md-3 col-lg-1 mol-2" style="border-right:0">SUBTOTAL</div>
+        <div class="col-xs-12 col-md-3 col-lg-1 mol-1">Tax</div>
 
-        </div>
+    </div>
 
         <div class="row panel panel-default" id="saman_list">
         <br>
